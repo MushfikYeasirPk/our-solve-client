@@ -60,6 +60,7 @@ const logo ='{Our Solve}'
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
+                            <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
                             <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
                             <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
 
@@ -87,6 +88,7 @@ const logo ='{Our Solve}'
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
+                        <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
                         <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
                         <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
 
