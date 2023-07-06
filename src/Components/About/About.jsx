@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="pb-12 mt-10 bg-slate-600">
-      <div className="text-4xl text-center uppercase font-black mt-10 text-red-500">
+    <div className="pb-12  bg-slate-600">
+      <div className="text-4xl text-center uppercase font-black  text-red-500">
         About Us
       </div>
       <div className="container px-12 mx-auto lg:flex justify-between md:block sm:block">
