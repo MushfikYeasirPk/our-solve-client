@@ -116,14 +116,14 @@ const logo ='{Our Solve}'
 
                                         </div>
                                     </label>
-                                    <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                                    <ul tabIndex={0} className="mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
 
                                         <li><Link onClick={handleLogout}>Logout</Link></li>
                                     </ul>
                                 </div>
                             </> :
                             <>
-                                <Link to='/signIn'><button className="btn btn-accent btn-success">Sign in</button></Link>
+                                <Link to='/signIn'><button className="btn btn-outline">Sign in</button></Link>
                             </>
                     }
 
