@@ -20,7 +20,7 @@ const ErrorPage = () => {
           </p>
           <div className="flex justify-center">
             <button className="mx-4 h-10 w-44 border rounded-md text-white text-base bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-indigo-800">
-              <Link to="/home"> Go Back </Link>
+              <Link to="/"> Go Back </Link>
             </button>
           </div>
         </div>
