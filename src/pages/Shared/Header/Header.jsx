@@ -7,7 +7,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 import useCart from '../../Custom Hooks/useCart';
 
 const Header = () => {
-const logo ='{Our Solve}'
+    const logo = '{Our Solve}'
     const mode = JSON.parse(localStorage.getItem("dark-mode"))
     const [dark, setDark] = useState(false)
 
@@ -62,7 +62,8 @@ const logo ='{Our Solve}'
                             <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
                             <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
                             <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
-                            <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
+                            <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Blog</NavLink></li>
+                            <li><NavLink to='/contact' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Contact</NavLink></li>
 
                             {
                                 user ?
@@ -89,8 +90,10 @@ const logo ='{Our Solve}'
                     <ul className="menu menu-horizontal px-1">
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Home</NavLink></li>
                         <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>About</NavLink></li>
-                        <li><NavLink to='/instructors' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Instructors</NavLink></li>
-                        <li><NavLink to='/classes' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Classes</NavLink></li>
+                        <li><NavLink to='/courses' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Courses</NavLink></li>
+                        <li><NavLink to='/blog' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Blog</NavLink></li>
+                        <li><NavLink to='/contact' className={({ isActive }) => (isActive ? 'text-blue-700' : 'default')}>Contact</NavLink></li>
+
 
 
                     </ul>

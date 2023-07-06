@@ -5,7 +5,7 @@ import Home from "../pages/Home/Home";
 import Main from "../Layout/Main";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Dashboard from "../pages/Dashboard/Dashboard";
-import Instructors from "../pages/Instructors/Instructors";
+import Courses from "../pages/Courses/Courses";
 import Classes from "../pages/Classes/Classes";
 import Mycart from "../pages/Dashboard/Mycart/Mycart";
 import MySelectedClass from "../pages/Dashboard/My Selected Classes/MySelectedClass";
@@ -40,13 +40,10 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
-        path: "/instructors",
-        element: <Instructors></Instructors>
+        path: "/courses",
+        element: <Courses></Courses>
       },
-      {
-        path: "/classes",
-        element: <Classes></Classes>
-      }
+      
     ]
 
 
