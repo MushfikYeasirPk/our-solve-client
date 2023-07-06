@@ -6,7 +6,6 @@ import Main from "../Layout/Main";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Courses from "../pages/Courses/Courses";
-import Classes from "../pages/Classes/Classes";
 import Mycart from "../pages/Dashboard/Mycart/Mycart";
 import MySelectedClass from "../pages/Dashboard/My Selected Classes/MySelectedClass";
 import MyEnrolledClasses from "../pages/Dashboard/My Enrolled Class/MyEnrolledClasses";
@@ -14,6 +13,8 @@ import ManagerUsers from "../pages/Dashboard/ManagerUsers/ManagerUsers";
 import ManageClasses from "../pages/Dashboard/Manage Classes/ManageClasses";
 import Payment from "../pages/Dashboard/Payment/Payment";
 import About from "../Components/About/About";
+import Blogs from "../Components/Blogs/Blogs";
+import Contact from "../Components/Contact/Contact";
 
 
 const router = createBrowserRouter([
@@ -42,6 +43,18 @@ const router = createBrowserRouter([
       {
         path: "/courses",
         element: <Courses></Courses>
+      },
+      {
+        path: "/blog",
+        element: <Blogs></Blogs>
+      },
+      {
+        path: "/courses",
+        element: <Courses></Courses>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       
     ]
